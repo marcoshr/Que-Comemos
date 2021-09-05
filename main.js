@@ -1,5 +1,17 @@
 console.log("console3")
-var comidas = ["1", "2", "3", ]
+var comidas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "3", "4", "5", "2", "3", "4", "5"]
+
+
+
+const fs = require('fs')
+  
+fs.readFile('comidas.txt', (err, data) => {
+    if (err) throw err;
+  
+    console.log(data.toString());
+})
+
+
 
 function handleClickSearch() {
     console.log("qwerty")
