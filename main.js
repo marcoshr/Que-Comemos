@@ -1,8 +1,3 @@
-console.log("console3")
-var comidas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "3", "4", "5", "2", "3", "4", "5"]
-
-
-
 import { readFile } from 'fs';
   
 readFile('comidas.txt', (err, data) => {
@@ -10,6 +5,20 @@ readFile('comidas.txt', (err, data) => {
   
     console.log(data.toString());
 })
+
+
+
+
+
+
+
+
+console.log("console3")
+var comidas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "3", "4", "5", "2", "3", "4", "5"]
+
+
+
+
 
 
 
