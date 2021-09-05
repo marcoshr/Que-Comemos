@@ -1,14 +1,11 @@
 print("--- main.py ---")
 
-f = open('helloworld.html','w')
+index = open("index.html").read().format(first_header='goodbye', 
+                                         p1='World', 
+                                         p2='Hello')
 
-message = """<html>
-<head></head>
-<body><p>Hello World!</p></body>
-</html>"""
 
-f.write(message)
-f.close()
+
 
 comidas = ["Papas a lo pobre",
            "Pizza",
@@ -17,3 +14,7 @@ comidas = ["Papas a lo pobre",
 a = [comida for comida in comidas]
 
 print(a)
+
+
+
+
