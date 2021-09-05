@@ -1,20 +1,23 @@
 print("--- main.py ---")
 
-HTML_File=open('index.html','r')
-s = HTML_File.read().format(first_header='goodbye', 
-                            p1='World', 
-                            p2='Hello')
-print(s)
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return "Hello World!"
 
 
 
-comidas = ["Papas a lo pobre",
-           "Pizza",
-           "Macarrones",]
+# comidas = ["Papas a lo pobre",
+#            "Pizza",
+#            "Macarrones",]
 
-a = [comida for comida in comidas]
+# a = [comida for comida in comidas]
 
-print(a)
+# print(a)
 
 
 
