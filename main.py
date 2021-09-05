@@ -1,9 +1,10 @@
 print("--- main.py ---")
 
-index = open("index.html").read().format(first_header='goodbye', 
-                                         p1='World', 
-                                         p2='Hello')
-
+HTML_File=open('index.html','r')
+s = HTML_File.read().format(first_header='goodbye', 
+                            p1='World', 
+                            p2='Hello')
+print(s)
 
 
 
