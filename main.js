@@ -1,9 +1,9 @@
 console.log("console")
-var comidas = ["1", "2", "3"]
+// var comidas = ["1", "2", "3"]
 
-function handleClickSearch() {
+// function handleClickSearch() {
 
-    // const query = d3.select('#boton').property("value");
-    document.getElementById("content").innerHTML = "prueba";
+//     // const query = d3.select('#boton').property("value");
+//     document.getElementById("content").innerHTML = "prueba";
 
-}
+// }
