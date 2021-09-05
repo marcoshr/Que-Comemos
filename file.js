@@ -6,4 +6,4 @@ console.log("console2")
 //     // const query = d3.select('#boton').property("value");
 //     document.getElementById("content").innerHTML = "prueba";
 
-// }
+// } 
