@@ -5,6 +5,7 @@ function handleClickSearch() {
     console.log("qwerty")
 
     // const query = d3.select('#boton').property("value");
-    document.getElementById("content").innerHTML = "prueba";
+    document.getElementById("content").innerHTML = comidas;
+    document.getElementById("content2").innerHTML = "pepe";
 
 } 
