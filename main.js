@@ -5,6 +5,7 @@ function handleClickSearch() {
     console.log("qwerty")
 
     rand = Math.floor((Math.random() * comidas.length) + 1)
+    console.log(rand)
 
     // const query = d3.select('#boton').property("value");
     document.getElementById("content").innerHTML = comidas[rand];
