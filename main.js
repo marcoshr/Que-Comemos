@@ -1,4 +1,4 @@
-console.log("console2")
+console.log("console3")
 // var comidas = ["1", "2", "3"]
 
 // function handleClickSearch() {
