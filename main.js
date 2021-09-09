@@ -15,7 +15,14 @@ console.log("--- main.js ---")
 
 
 console.log("console3")
-var comidas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "3", "4", "5", "2", "3", "4", "5"]
+var comidas = ["Papas a lo pobre",
+ "Pedir pizza", 
+ "Pedir chino", 
+"Judias a la vinagreta",
+"Arroz, huevo y salchichas",
+"Spaguetti",
+"Croquetas",
+]
 
 
 
@@ -26,7 +33,7 @@ var comidas = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "3", "4", "5",
 function handleClickSearch() {
     console.log("--- handleClickSearch() ---")
 
-    rand = Math.floor((Math.random() * comidas.length) + 1)
+    rand = Math.floor((Math.random() * (comidas.length - 1)) + 1)
     console.log(rand)
 
     document.getElementById("plato").innerHTML = comidas[rand];
