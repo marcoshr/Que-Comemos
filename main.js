@@ -21,8 +21,7 @@ var comidas = ["Papas a lo pobre",
 "Judias a la vinagreta",
 "Arroz, huevo y salchichas",
 "Spaguetti",
-"Croquetas",
-]
+"Croquetas"]
 
 
 
