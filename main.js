@@ -19,9 +19,19 @@ var comidas = ["Papas a lo pobre",
  "Pedir pizza", 
  "Pedir chino", 
 "Judias a la vinagreta",
-"Arroz, huevo y salchichas",
+"Arroz, huevo, salchichas, papas fritas",
 "Spaguetti",
-"Croquetas"]
+"Croquetas",
+"Ensalada",
+"Pimientos rellenos",
+"Bocadillo",
+"Tortilla",
+"Para picar: jamón serrano, aceitunas, bizcochos",
+"Pescado",
+"Ir a cenar fuera",
+"Verduras picadas en cuadritos",
+"Pollo al curry",
+"Sopa Magic"]
 
 
 
