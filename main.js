@@ -31,7 +31,9 @@ var comidas = ["Papas a lo pobre",
 "Ir a cenar fuera",
 "Verduras picadas en cuadritos",
 "Pollo al curry",
-"Sopa Magic"]
+"Sopa Magic",
+"Sushi",
+"Gula del norte"]
 
 
 
